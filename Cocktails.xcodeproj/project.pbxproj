@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F32DAEA2795D67C00D988E0 /* CocktailDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32DAE42795D67C00D988E0 /* CocktailDetailPresenter.swift */; };
+		1F32DAEB2795D67C00D988E0 /* CocktailDetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32DAE52795D67C00D988E0 /* CocktailDetailWorker.swift */; };
+		1F32DAEC2795D67C00D988E0 /* CocktailDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32DAE62795D67C00D988E0 /* CocktailDetailRouter.swift */; };
+		1F32DAED2795D67C00D988E0 /* CocktailDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32DAE72795D67C00D988E0 /* CocktailDetailModels.swift */; };
+		1F32DAEE2795D67C00D988E0 /* CocktailDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32DAE82795D67C00D988E0 /* CocktailDetailViewController.swift */; };
+		1F32DAEF2795D67C00D988E0 /* CocktailDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32DAE92795D67C00D988E0 /* CocktailDetailInteractor.swift */; };
+		1F32DAF22795DCF700D988E0 /* CocktailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32DAF12795DCF700D988E0 /* CocktailImageCell.swift */; };
+		1F32DAF42795DE1700D988E0 /* CocktailInstructionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32DAF32795DE1700D988E0 /* CocktailInstructionsCell.swift */; };
+		1F32DAF62795E59E00D988E0 /* CocktailDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32DAF52795E59E00D988E0 /* CocktailDetailDataSource.swift */; };
 		1FF5FA3F27909C540031835E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA3E27909C540031835E /* AppDelegate.swift */; };
 		1FF5FA4127909C540031835E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA4027909C540031835E /* SceneDelegate.swift */; };
-		1FF5FA4327909C540031835E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA4227909C540031835E /* ViewController.swift */; };
-		1FF5FA4627909C550031835E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF5FA4427909C540031835E /* Main.storyboard */; };
+		1FF5FA4327909C540031835E /* SearchCocktailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA4227909C540031835E /* SearchCocktailsViewController.swift */; };
 		1FF5FA4827909C5A0031835E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF5FA4727909C5A0031835E /* Assets.xcassets */; };
 		1FF5FA4B27909C5A0031835E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF5FA4927909C5A0031835E /* LaunchScreen.storyboard */; };
+		1FF5FA732791E3B90031835E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA722791E3B90031835E /* TabBarController.swift */; };
+		1FF5FA752791E5BC0031835E /* CocktailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA742791E5BC0031835E /* CocktailCell.swift */; };
+		1FF5FA7D2791F09C0031835E /* SearchCocktailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA772791F09C0031835E /* SearchCocktailsPresenter.swift */; };
+		1FF5FA7E2791F09C0031835E /* SearchCocktailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA782791F09C0031835E /* SearchCocktailsWorker.swift */; };
+		1FF5FA7F2791F09C0031835E /* SearchCocktailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA792791F09C0031835E /* SearchCocktailsRouter.swift */; };
+		1FF5FA802791F09C0031835E /* SearchCocktailsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA7A2791F09C0031835E /* SearchCocktailsModels.swift */; };
+		1FF5FA812791F09C0031835E /* SearchCocktailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA7B2791F09C0031835E /* SearchCocktailsInteractor.swift */; };
+		1FF5FA842791F1F20031835E /* CocktailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA832791F1F20031835E /* CocktailResponse.swift */; };
+		1FF5FA862791F2870031835E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA852791F2870031835E /* Networking.swift */; };
+		1FF5FA892791F31E0031835E /* APIScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA882791F31E0031835E /* APIScheme.swift */; };
+		1FF5FA8B2791F3F80031835E /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA8A2791F3F80031835E /* NetworkDataFetcher.swift */; };
+		1FF5FA8D279200260031835E /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5FA8C279200260031835E /* WebImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F32DAE42795D67C00D988E0 /* CocktailDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailPresenter.swift; sourceTree = "<group>"; };
+		1F32DAE52795D67C00D988E0 /* CocktailDetailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailWorker.swift; sourceTree = "<group>"; };
+		1F32DAE62795D67C00D988E0 /* CocktailDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailRouter.swift; sourceTree = "<group>"; };
+		1F32DAE72795D67C00D988E0 /* CocktailDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailModels.swift; sourceTree = "<group>"; };
+		1F32DAE82795D67C00D988E0 /* CocktailDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailViewController.swift; sourceTree = "<group>"; };
+		1F32DAE92795D67C00D988E0 /* CocktailDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailInteractor.swift; sourceTree = "<group>"; };
+		1F32DAF12795DCF700D988E0 /* CocktailImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailImageCell.swift; sourceTree = "<group>"; };
+		1F32DAF32795DE1700D988E0 /* CocktailInstructionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailInstructionsCell.swift; sourceTree = "<group>"; };
+		1F32DAF52795E59E00D988E0 /* CocktailDetailDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailDataSource.swift; sourceTree = "<group>"; };
 		1FF5FA3B27909C540031835E /* Cocktails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocktails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF5FA3E27909C540031835E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FF5FA4027909C540031835E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FF5FA4227909C540031835E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FF5FA4527909C550031835E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FF5FA4227909C540031835E /* SearchCocktailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCocktailsViewController.swift; sourceTree = "<group>"; };
 		1FF5FA4727909C5A0031835E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FF5FA4A27909C5A0031835E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FF5FA4C27909C5A0031835E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF5FA722791E3B90031835E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1FF5FA742791E5BC0031835E /* CocktailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailCell.swift; sourceTree = "<group>"; };
+		1FF5FA772791F09C0031835E /* SearchCocktailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCocktailsPresenter.swift; sourceTree = "<group>"; };
+		1FF5FA782791F09C0031835E /* SearchCocktailsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCocktailsWorker.swift; sourceTree = "<group>"; };
+		1FF5FA792791F09C0031835E /* SearchCocktailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCocktailsRouter.swift; sourceTree = "<group>"; };
+		1FF5FA7A2791F09C0031835E /* SearchCocktailsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCocktailsModels.swift; sourceTree = "<group>"; };
+		1FF5FA7B2791F09C0031835E /* SearchCocktailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCocktailsInteractor.swift; sourceTree = "<group>"; };
+		1FF5FA832791F1F20031835E /* CocktailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailResponse.swift; sourceTree = "<group>"; };
+		1FF5FA852791F2870031835E /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		1FF5FA882791F31E0031835E /* APIScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIScheme.swift; sourceTree = "<group>"; };
+		1FF5FA8A2791F3F80031835E /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		1FF5FA8C279200260031835E /* WebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +77,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F32DAE22795D63600D988E0 /* Cocktail Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1F32DAE82795D67C00D988E0 /* CocktailDetailViewController.swift */,
+				1F32DAE92795D67C00D988E0 /* CocktailDetailInteractor.swift */,
+				1F32DAE42795D67C00D988E0 /* CocktailDetailPresenter.swift */,
+				1F32DAE62795D67C00D988E0 /* CocktailDetailRouter.swift */,
+				1F32DAE52795D67C00D988E0 /* CocktailDetailWorker.swift */,
+				1F32DAE72795D67C00D988E0 /* CocktailDetailModels.swift */,
+				1F32DAF02795DCDF00D988E0 /* Cells */,
+			);
+			path = "Cocktail Detail";
+			sourceTree = "<group>";
+		};
+		1F32DAE32795D64D00D988E0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1F32DB19279F140B00D988E0 /* Random Cocktail */,
+				1FF5FA762791F07B0031835E /* Search Cocktails */,
+				1F32DAE22795D63600D988E0 /* Cocktail Detail */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1F32DAF02795DCDF00D988E0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1F32DAF12795DCF700D988E0 /* CocktailImageCell.swift */,
+				1F32DAF32795DE1700D988E0 /* CocktailInstructionsCell.swift */,
+				1F32DAF52795E59E00D988E0 /* CocktailDetailDataSource.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1F32DB19279F140B00D988E0 /* Random Cocktail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Random Cocktail";
+			sourceTree = "<group>";
+		};
 		1FF5FA3227909C540031835E = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +139,40 @@
 			children = (
 				1FF5FA3E27909C540031835E /* AppDelegate.swift */,
 				1FF5FA4027909C540031835E /* SceneDelegate.swift */,
-				1FF5FA4227909C540031835E /* ViewController.swift */,
-				1FF5FA4427909C540031835E /* Main.storyboard */,
+				1F32DAE32795D64D00D988E0 /* Scenes */,
+				1FF5FA872791F3090031835E /* Network */,
+				1FF5FA722791E3B90031835E /* TabBarController.swift */,
+				1FF5FA8C279200260031835E /* WebImageView.swift */,
 				1FF5FA4727909C5A0031835E /* Assets.xcassets */,
 				1FF5FA4927909C5A0031835E /* LaunchScreen.storyboard */,
 				1FF5FA4C27909C5A0031835E /* Info.plist */,
 			);
 			path = Cocktails;
+			sourceTree = "<group>";
+		};
+		1FF5FA762791F07B0031835E /* Search Cocktails */ = {
+			isa = PBXGroup;
+			children = (
+				1FF5FA742791E5BC0031835E /* CocktailCell.swift */,
+				1FF5FA4227909C540031835E /* SearchCocktailsViewController.swift */,
+				1FF5FA7B2791F09C0031835E /* SearchCocktailsInteractor.swift */,
+				1FF5FA772791F09C0031835E /* SearchCocktailsPresenter.swift */,
+				1FF5FA782791F09C0031835E /* SearchCocktailsWorker.swift */,
+				1FF5FA792791F09C0031835E /* SearchCocktailsRouter.swift */,
+				1FF5FA7A2791F09C0031835E /* SearchCocktailsModels.swift */,
+			);
+			path = "Search Cocktails";
+			sourceTree = "<group>";
+		};
+		1FF5FA872791F3090031835E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1FF5FA832791F1F20031835E /* CocktailResponse.swift */,
+				1FF5FA852791F2870031835E /* Networking.swift */,
+				1FF5FA8A2791F3F80031835E /* NetworkDataFetcher.swift */,
+				1FF5FA882791F31E0031835E /* APIScheme.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +235,6 @@
 			files = (
 				1FF5FA4B27909C5A0031835E /* LaunchScreen.storyboard in Resources */,
 				1FF5FA4827909C5A0031835E /* Assets.xcassets in Resources */,
-				1FF5FA4627909C550031835E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +245,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF5FA4327909C540031835E /* ViewController.swift in Sources */,
+				1F32DAF42795DE1700D988E0 /* CocktailInstructionsCell.swift in Sources */,
+				1FF5FA8B2791F3F80031835E /* NetworkDataFetcher.swift in Sources */,
+				1FF5FA7D2791F09C0031835E /* SearchCocktailsPresenter.swift in Sources */,
+				1FF5FA842791F1F20031835E /* CocktailResponse.swift in Sources */,
+				1F32DAF22795DCF700D988E0 /* CocktailImageCell.swift in Sources */,
+				1FF5FA4327909C540031835E /* SearchCocktailsViewController.swift in Sources */,
+				1F32DAED2795D67C00D988E0 /* CocktailDetailModels.swift in Sources */,
+				1F32DAEB2795D67C00D988E0 /* CocktailDetailWorker.swift in Sources */,
+				1FF5FA862791F2870031835E /* Networking.swift in Sources */,
+				1F32DAEF2795D67C00D988E0 /* CocktailDetailInteractor.swift in Sources */,
+				1FF5FA812791F09C0031835E /* SearchCocktailsInteractor.swift in Sources */,
+				1FF5FA892791F31E0031835E /* APIScheme.swift in Sources */,
+				1FF5FA802791F09C0031835E /* SearchCocktailsModels.swift in Sources */,
+				1FF5FA7F2791F09C0031835E /* SearchCocktailsRouter.swift in Sources */,
+				1FF5FA752791E5BC0031835E /* CocktailCell.swift in Sources */,
+				1FF5FA732791E3B90031835E /* TabBarController.swift in Sources */,
 				1FF5FA3F27909C540031835E /* AppDelegate.swift in Sources */,
+				1F32DAF62795E59E00D988E0 /* CocktailDetailDataSource.swift in Sources */,
+				1F32DAEC2795D67C00D988E0 /* CocktailDetailRouter.swift in Sources */,
 				1FF5FA4127909C540031835E /* SceneDelegate.swift in Sources */,
+				1F32DAEA2795D67C00D988E0 /* CocktailDetailPresenter.swift in Sources */,
+				1F32DAEE2795D67C00D988E0 /* CocktailDetailViewController.swift in Sources */,
+				1FF5FA8D279200260031835E /* WebImageView.swift in Sources */,
+				1FF5FA7E2791F09C0031835E /* SearchCocktailsWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1FF5FA4427909C540031835E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FF5FA4527909C550031835E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1FF5FA4927909C5A0031835E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +414,6 @@
 				INFOPLIST_FILE = Cocktails/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +425,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +441,6 @@
 				INFOPLIST_FILE = Cocktails/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +452,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
